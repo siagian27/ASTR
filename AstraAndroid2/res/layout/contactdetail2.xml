@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center">
+
+<ScrollView android:id="@+id/ScrollView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center">
+				
+	<TableRow android:id="@+id/TableRow01" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Company : " 
+			  android:id="@+id/tv_company" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_company"
+			  android:width="250dip"
+			  android:text="PT. Toyota Astra Motor"></EditText>
+	<TextView android:text=""  
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>			  
+	</TableRow>
+			  
+	<TableRow android:id="@+id/TableRow02" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">	
+	<TextView android:text="Address : " 
+			  android:id="@+id/tv_address" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_address"
+			  android:width="250dip"
+			  android:text="Jl. Dr. Setiabudhi No. 184 A"></EditText>
+	<TextView android:text=""  
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>			  
+	</TableRow>			  
+
+	<TableRow android:id="@+id/TableRow03" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">	
+	<TextView android:text=""  
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>			  
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_address_02"
+			  android:width="250dip"
+			  android:text="Bandung"></EditText>
+	<TextView android:text=""  
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>			  
+	</TableRow>
+
+	<TableRow android:id="@+id/TableRow04" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text=""  
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>			  
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_address_03"
+			  android:width="250dip"
+			  android:text=""></EditText>
+	<TextView android:text=""  
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>			  
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow05" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Working hours : "  
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>			  
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_working_hours"
+			  android:width="250dip"
+			  android:text="08:00 - 17:00"></EditText>
+	<TextView android:text=""  
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>			  
+	</TableRow>
+		
+	<TableRow android:id="@+id/TableRow06" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Phone : " 
+			  android:id="@+id/tv_phone" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_phone"
+			  android:width="250dip"
+			  android:text="0222034457 "></EditText>
+    <Button
+            android:id="@+id/btn_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_phone"/>				  
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow07" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Email : " 
+			  android:id="@+id/tv_email" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_email"
+			  android:width="250dip"
+			  android:text=""></EditText>
+    <Button
+            android:id="@+id/btn_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_email"/>					  
+	</TableRow>
+	
+
+	<TableRow android:id="@+id/TableRow08" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<Button android:id="@+id/btn_show_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Map"
+            />		
+	</TableRow>	
+			
+</TableLayout>
+
+</ScrollView>	
+    
+</TableLayout> 

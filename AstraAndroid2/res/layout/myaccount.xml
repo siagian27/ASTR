@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center">
+
+<ScrollView android:id="@+id/ScrollView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center">
+				
+	<TableRow android:id="@+id/TableRow01" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Username" 
+			  android:id="@+id/tv_myacct_username" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_myacct_username"
+			  android:text="astra"
+			  android:width="300dip"></EditText>
+	</TableRow>
+
+	<TableRow android:id="@+id/TableRow02" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="First Name" 
+			  android:id="@+id/tv_myacct_first_name" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_myacct_first_name"
+			  android:width="300dip"></EditText>
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow03" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Last Name" 
+			  android:id="@+id/tv_myacct_last_name" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_myacct_last_name"
+			  android:width="300dip"></EditText>
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow04" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Address" 
+			  android:id="@+id/tv_myacct_address" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_myacct_address"
+			  android:width="300dip"></EditText>
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow05" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Address" 
+			  android:id="@+id/tv_myacct_address2" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_myacct_address2"
+			  android:width="300dip"></EditText>
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow06" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Address" 
+			  android:id="@+id/tv_myacct_city" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_myacct_city"
+			  android:width="300dip"></EditText>
+	</TableRow>	
+	
+	<TableRow android:id="@+id/TableRow07" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Mobile No" 
+			  android:id="@+id/tv_myacct_mobile_no" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_myacct_mobile_no"
+			  android:width="300dip"></EditText>
+	</TableRow>	
+	
+	<TableRow android:id="@+id/TableRow08" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Phone No" 
+			  android:id="@+id/tv_myacct_phone_no" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_myacct_phone_no"
+			  android:width="300dip"></EditText>
+	</TableRow>
+
+	<TableRow android:id="@+id/TableRow9" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+    <Button
+            android:id="@+id/btn_myacct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>			  	
+	</TableRow>
+	
+			
+</TableLayout>
+
+</ScrollView>
+
+</TableLayout> 

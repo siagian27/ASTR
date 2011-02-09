@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center">
+
+<ScrollView android:id="@+id/ScrollView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center">
+				
+	<TableRow android:id="@+id/TableRow01" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Username" 
+			  android:id="@+id/tv_username" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_username"
+			  android:width="300dip"></EditText>
+	</TableRow>
+			  
+	<TableRow android:id="@+id/TableRow02" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">	
+	<TextView android:text="Password" 
+			  android:id="@+id/tv_password" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:password="true"
+			  android:id="@+id/txt_password"
+			  android:width="300dip"></EditText>
+	</TableRow>			  
+
+	<TableRow android:id="@+id/TableRow03" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">	
+	<TextView android:text="Verify Password" 
+			  android:id="@+id/tv_verify_password" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:password="true"
+			  android:id="@+id/txt_verify_password"
+			  android:width="300dip"></EditText>
+	</TableRow>
+
+	<TableRow android:id="@+id/TableRow04" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="First Name" 
+			  android:id="@+id/tv_first_name" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_first_name"
+			  android:width="300dip"></EditText>
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow05" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Last Name" 
+			  android:id="@+id/tv_last_name" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_last_name"
+			  android:width="300dip"></EditText>
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow06" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Address" 
+			  android:id="@+id/tv_address" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_address"
+			  android:width="300dip"></EditText>
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow07" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="City" 
+			  android:id="@+id/tv_city" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_city"
+			  android:width="300dip"></EditText>
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow08" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Mobile No" 
+			  android:id="@+id/tv_mobile_no" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_mobile_no"
+			  android:width="300dip"></EditText>
+	</TableRow>	
+	
+	<TableRow android:id="@+id/TableRow09" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:text="Phone No" 
+			  android:id="@+id/tv_phone_no" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:id="@+id/txt_phone_no"
+			  android:width="300dip"></EditText>
+	</TableRow>
+
+	<TableRow android:id="@+id/TableRow10" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+    <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"/>			  	
+	</TableRow>
+	
+			
+</TableLayout>
+
+</ScrollView>
+
+</TableLayout> 

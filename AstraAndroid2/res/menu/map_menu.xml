@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_show_route_gps"
+    	android:title="Show Route (GPS)"
+        android:icon="@drawable/menu_map_route" />
+    <item android:id="@+id/item_show_route_network"
+        android:title="Show route (Network)"
+        android:icon="@drawable/menu_map_route" />  
+</menu>

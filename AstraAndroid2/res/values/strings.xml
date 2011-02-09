@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Toyota Mobile 2</string>
+    <string name="app_name">Toyota Mobile 2</string>
+    <string name="search_label">Search Vehicle</string>
+    <string name="search_hint">Any</string>    
+    <string name="package_str">com.android.astra2</string>
+    <string name="group_toyota_cars">Toyota Cars</string>
+    <string name="group_toyota_trucks">Toyota Trucks</string>
+    <string name="group_toyota_hybrids">Toyota Hybrids</string>
+    <string name="group_toyota_suv_van">Toyota SUVs &amp; Van</string>
+    <string name="group_honda_motors">Honda Motors</string>
+    <string name="toyotayaris">Toyota Yaris</string>
+    <string name="toyotaprius">Toyota Prius</string>
+    <string name="toyotacamry">Toyota Camry</string>
+    <string name="toyotamatrix">Toyota Matrix</string>
+    <string name="toyotavenza">Toyota Venza</string>
+    <string name="toyotatundra">Toyota Tundra</string>
+    <string name="toyota_land_cruiser">Toyota Land Cruiser</string>
+    <string name="toyota_camry_hybrid">Toyota Camry Hybrid</string>
+    <string name="model_select_vehicle">Select Vehicle :</string>
+    <string name="model_search_hint">Type a word</string>
+    <string name="model_search_button">Search</string>
+    <string name="model_model_label">Model</string>
+    <string name="model_gallery_label">Gallery</string>
+    <string name="model_bottom_text1">• Vehicles shown may have optional equipment at additional cost. Covers normal factory scheduled service. Plan is 2 years or 25K miles, whichever comes first. The new Toyota vehicle cannot be part of a rental or commercial fleet, or a livery or taxi vehicle. See plan for complete coverage details. See participating Toyota dealer for details.</string>
+    <string name="model_bottom_text2">• Vehicle names, technical details, equipment specs and colors of the model presented here may vary from country to country. Not all models are available in your country. For more detailed information, access http://www.toyota.com or call (021) 4151212.\n• Other vehicle models are coming soon.</string>
+</resources>

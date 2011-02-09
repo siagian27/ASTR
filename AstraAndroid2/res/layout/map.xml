@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center">
+
+<ScrollView android:id="@+id/ScrollView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center">
+  
+	<TableRow android:id="@+id/TableRow01" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+			    
+	<com.google.android.maps.MapView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/mapview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:clickable="true"
+	    android:enabled="true"
+	    android:apiKey="08PeS55JPXS890Qk3gVYaPPr5xWANFwK6FF1Nzw"
+	    
+	/>
+
+	</TableRow>  
+
+</TableLayout>
+
+</ScrollView>
+
+</TableLayout> 

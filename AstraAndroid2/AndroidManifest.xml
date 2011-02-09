@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.astra2"
+      android:versionCode="1"
+      android:versionName="1.0">
+	
+	<supports-screens android:smallScreens="true"
+					 android:normalScreens="true"
+					 android:largeScreens="true"
+					 android:anyDensity="true">
+	</supports-screens>
+	
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET" />    	
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	
+    <application android:icon="@drawable/toyota_logo" 
+    			 android:label="@string/app_name"
+    			 android:name=".global.MyApplication">
+        <activity android:name=".LoginActivity"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".LoginError"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Welcome"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>         
+        
+        <activity android:name=".Register"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>    
+        
+        <activity android:name=".ContactList"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>      
+        
+        <activity android:name=".ContactDetail"
+            	  android:label="@string/app_name"
+            	 >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ContactDetail2"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>                    
+            
+        <activity android:name=".Map"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>       
+                  
+		<uses-library android:name="com.google.android.maps" />
+		                    
+        <activity android:name=".CurrentLocation"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>   		
+        
+        <activity android:name=".CurrentLocationNetwork"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>   	        
+
+        <activity android:name=".AstraNews"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>   
+        		      
+        <activity android:name=".CatMain"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            <action android:name="android.intent.action.SEARCH"></action>
+</intent-filter>        
+<meta-data android:resource="@xml/searchable" android:name="@string/hello"></meta-data>
+</activity>
+		<activity android:name=".see360.See360" android:label="@string/app_name"></activity>
+		<activity android:name=".Catalog_Models" 
+			android:label="@string/app_name" 
+			android:launchMode="singleTop"
+			>
+		   <intent-filter>
+		      <action android:name="android.intent.action.SEARCH" />
+		   </intent-filter>
+			<meta-data android:name="android.app.searchable" android:resource="@xml/searchable"></meta-data>
+		</activity>           
+                		      
+		<activity android:name=".More"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>   
+        
+		<activity android:name=".MyAccount"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+		<activity android:name=".ChgPassword"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+		<activity android:name=".MyVehicle"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>        
+                        
+		<activity android:name=".Logout"
+            	  android:label="@string/app_name"
+            	  >
+        	<intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>      
+        <meta-data android:name="android.app.default_searchable"
+		android:value="SearchActivity" />   
+    </application>
+<uses-sdk android:minSdkVersion="8" />     
+</manifest> 

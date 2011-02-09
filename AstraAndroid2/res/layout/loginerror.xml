@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" >
+      
+	<TableRow android:id="@+id/TableRow01" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">      
+      <TextView
+            android:id="@+id/tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+      </TableRow>
+	<TableRow android:id="@+id/TableRow02" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">      
+      <Button android:id="@+id/btn_ok" android:layout_width="80px"
+            android:layout_height="wrap_content" android:text="OK"
+            android:layout_x="83px" android:layout_y="60px"
+            android:gravity="center" />
+      </TableRow>
+</TableLayout>

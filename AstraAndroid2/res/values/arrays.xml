@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="hondamotors">
+		<item>HondaSupra</item>
+	</string-array>
+	
+	<string-array name="toyotavehicles">
+		<item>@string/toyotacamry</item>
+		<item>@string/toyotaprius</item>
+		<item>@string/toyotamatrix</item>
+		<item>@string/toyotavenza</item>
+		<item>@string/toyotayaris</item>
+		<item>@string/toyotatundra</item>
+		<item>@string/toyota_land_cruiser</item>
+		<item>@string/toyota_camry_hybrid</item>
+	</string-array>	
+	<string-array name="toyota_yaris_models">
+		<item>ToyotaYaris3DLB</item>
+		<item>ToyotaYaris5DLB</item>
+	</string-array>	
+
+	<string-array name="toyota_yaris_gallery">
+		<item>ToyotaYarisGallery1</item>
+		<item>ToyotaYarisGallery2</item>
+		<item>ToyotaYarisGallery3</item>
+		<item>ToyotaYarisGallery4</item>
+		<item>ToyotaYarisGallery5</item>
+	</string-array>	
+	
+	<!--add by stevie-->
+	<string-array name="toyota_camry_gallery">
+		<item>ToyotaCamryGallery1</item>
+		<item>ToyotaCamryGallery2</item>
+		<item>ToyotaCamryGallery3</item>
+		<item>ToyotaCamryGallery4</item>
+		<item>ToyotaCamryGallery5</item>
+	</string-array>	
+	<!--end by stevie-->
+	
+	<!--add by stevie-->
+	<string-array name="toyota_prius_gallery">
+		<item>ToyotaPriusGallery1</item>
+		<item>ToyotaPriusGallery2</item>
+		<item>ToyotaPriusGallery3</item>
+		<item>ToyotaPriusGallery4</item>
+		<item>ToyotaPriusGallery5</item>
+	</string-array>	
+	<!--end by stevie-->
+	
+<!--	t_yaris_large1 : its height must 500 pixels maximum
+		t_yaris_small1 : square size at 240px X 240px
+		Ada 3 data yang harus diisi:
+		data[0]:	gambar resource ukuran besar
+		data[1]:	gambar resource ukuran kecil
+ 		data[2]:	deskripsi-->
+	<string-array name="ToyotaYarisGallery1">
+		<item>t_yaris_large1</item>
+		<item>t_yaris_small1</item>
+		<item>Yaris description is comming soon..</item>
+	</string-array>		
+	<string-array name="ToyotaYarisGallery2">
+		<item>t_yaris_large2</item>
+		<item>t_yaris_small2</item>
+		<item>Yaris description is comming soon..</item>
+	</string-array>	
+	<string-array name="ToyotaYarisGallery3">
+		<item>t_yaris_large3</item>
+		<item>t_yaris_small3</item>
+		<item>Yaris description is comming soon..</item>
+	</string-array>	
+	<string-array name="ToyotaYarisGallery4">
+		<item>t_yaris_large4</item>
+		<item>t_yaris_small4</item>
+		<item>Yaris description is comming soon..</item>
+	</string-array>	
+	<string-array name="ToyotaYarisGallery5">
+		<item>t_yaris_large5</item>
+		<item>t_yaris_small5</item>
+		<item>Yaris description is comming soon..</item>
+	</string-array>	
+	
+	<!--add by stevie-->
+	<string-array name="ToyotaCamryGallery1">
+		<item>t_camry_large1</item>
+		<item>t_camry_small1</item>
+		<item>Camry Grande</item>
+	</string-array>		
+	<string-array name="ToyotaCamryGallery2">
+		<item>t_camry_large2</item>
+		<item>t_camry_small2</item>
+		<item>Hybrid shown in Aloe Green Metallic with available Upgrade Package, fog lamps and moonroof</item>
+	</string-array>	
+	<string-array name="ToyotaCamryGallery3">
+		<item>t_camry_large3</item>
+		<item>t_camry_small3</item>
+		<item>Hybrid interior shown with available voice-activated touch-screen DVD navigation [1]</item>
+	</string-array>	
+	<string-array name="ToyotaCamryGallery4">
+		<item>t_camry_large4</item>
+		<item>t_camry_small4</item>
+		<item>Camry Grande interior</item>
+	</string-array>	
+	<string-array name="ToyotaCamryGallery5">
+		<item>t_camry_large5</item>
+		<item>t_camry_small5</item>
+		<item>XLE V6 shown in Ash leather with available voice-activated touch-screen DVD navigation system [1], heated front seats and Smart Key System [2] with Push Button Start</item>
+	</string-array>	
+	<!--end by stevie-->
+	
+	<!--add by stevie-->
+	<string-array name="ToyotaPriusGallery1">
+		<item>t_prius_large1</item>
+		<item>t_prius_small1</item>
+		<item>Prius i-Tech</item>
+	</string-array>		
+	<string-array name="ToyotaPriusGallery2">
+		<item>t_prius_large2</item>
+		<item>t_prius_small2</item>
+		<item>Prius</item>
+	</string-array>	
+	<string-array name="ToyotaPriusGallery3">
+		<item>t_prius_large3</item>
+		<item>t_prius_small3</item>
+		<item>Prius IV interior shown in Dark Gray leather with available Navigation Package [1] [2]</item>
+	</string-array>	
+	<string-array name="ToyotaPriusGallery4">
+		<item>t_prius_large4</item>
+		<item>t_prius_small4</item>
+		<item>Prius IV interior shown in Bisque with available Navigation Package [1] [2]</item>
+	</string-array>	
+	<string-array name="ToyotaPriusGallery5">
+		<item>t_prius_large5</item>
+		<item>t_prius_small5</item>
+		<item>Prius interior rear</item>
+	</string-array>	
+	<!--end by stevie-->
+	
+	<!--add by stevie-->
+	<string-array name="toyota_camry_models">
+		<item>ToyotaCamryCE</item>
+		<item>ToyotaCamryLE</item>
+		<item>ToyotaCamrySE</item>
+		<item>ToyotaCamryXLE</item>
+		<item>ToyotaCamryHYB</item>
+	</string-array>
+	<!--end by stevie-->
+	
+	<!--add by stevie-->
+	<string-array name="toyota_prius_models">
+		<item>ToyotaPriusV</item>
+	</string-array>
+	<!--end by stevie-->
+	
+	<!--add by stevie-->
+	<!--end by stevie-->
+		
+<!--	utk warna merah, use _Red_
+		utk warna putih, use _White_
+		dst 
+		Things you must know:
+		1. Setelah kata _360_ adalah nama warnanya dan akan didisplay sbg info
+		   misal "Toyota_Yaris_3dlb_Red_360_Absolutely_Red" akan diperoleh "Absolutely Red"
+		   (diproses di See360.java)
+-->
+	<string-array name="toyota_yaris_3dlb_color360">
+		<item>Toyota_Yaris_3dlb_Red_360_Absolutely_Red</item>	
+		<item>Toyota_Yaris_3dlb_White_360_Super_White</item>
+	</string-array>	
+
+	<!--add by stevie-->
+	<string-array name="toyota_camry_hyb_color360">
+		<item>Toyota_Camry_hyb_Silver_360_Magnetic_Gray_Metallic</item>	
+		<item>Toyota_Camry_hyb_Red_360_Barcelona_Red_Metallic</item>
+	</string-array>	
+	<!--end by stevie-->
+	
+	<!--add by stevie-->
+	<string-array name="toyota_prius_v_color360">
+		<item>Toyota_Prius_v_White_360_Blizzard_Pearl</item>		
+	</string-array>	
+	<!--end by stevie-->
+	
+	<string-array name="toyota_group">
+		<item>toyota_cars</item>
+		<item>toyota_suv_van</item>
+		<item>toyota_hybrids</item>
+		<item>toyota_trucks</item>
+	</string-array>	
+
+	<string-array name="toyota_suv_van">
+		<item>Toyota_Land_Cruiser</item>
+	</string-array>	
+	<string-array name="toyota_hybrids">
+		<item>Toyota_Camry_Hybrid</item>
+	</string-array>
+	<string-array name="toyota_trucks">
+		<item>ToyotaTundra</item>
+	</string-array>	
+	<string-array name="toyota_cars">
+		<item>ToyotaYaris</item>
+		<item>ToyotaPrius</item>
+		<item>ToyotaCamry</item>
+		<item>ToyotaMatrix</item>
+		<item>ToyotaVenza</item>
+	</string-array>	
+
+	<string-array name="HondaSupra">
+		<item>Honda Supra</item>
+		<item>@string/group_honda_motors</item>
+		<item>2010 $820 150CC</item>
+		<item>tundra11icon100</item>
+		<item>3</item>
+		<item></item>
+		<item></item>
+	</string-array>
+
+<!--Ada 11 data yang harus diisi
+	data[0]=Nama vehicle
+	data[1]=Nama Group
+	data[2]=Deskripsi
+	data[3]=nama link resource iconnya
+	data[4]=rating (float)
+	data[5]=nama link resource gambar utamanya
+	data[6]=nama link group warna 
+	data[7]=nama link group car models
+	data[8]=nama link group car gallery
+	data[9]=reserved#1
+	data[10]=reserved#2
+-->
+	<string-array name="ToyotaYaris">
+		<item>@string/toyotayaris</item>
+		<item>@string/group_toyota_cars</item>
+		<item>BREAK THE MOLD. NOT THE BANK
+		\n• Standard air conditioning
+		\n• Available in Liftback and Sedan
+		\n• Driver and front passenger airbags
+		\n• Standard power steering and brakes
+		</item>
+		<item>t_yaris11icon100</item>
+		<item>3.5</item>
+		<item>t_yaris_thumb</item>
+		<item>toyota_yaris_3dlb_color360</item>
+		<item>toyota_yaris_models</item>
+		<item>toyota_yaris_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>
+	
+	<!--add by stevie-->
+	<string-array name="ToyotaPrius">
+		<item>@string/toyotaprius</item>
+		<item>@string/group_toyota_cars</item>
+		<item>HARMONY BETWEEN MAN, NATURE AND MACHINE
+		\n• 50 mpg rating [1]
+		\n• Available Solar Roof [2] [3]
+		\n• Improved Aerodynamics
+		\n• Available Touch Tracer Display [4]
+		</item>
+		<item>prius10icon100</item>
+		<item>4.5</item>
+		<item>t_prius_thumb</item>
+		<item>toyota_prius_v_color360</item>
+		<item>toyota_prius_models</item>
+		<item>toyota_prius_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>
+	<!--end by stevie-->
+	
+	<!--add by stevie-->
+	<string-array name="ToyotaCamry">
+		<item>@string/toyotacamry</item>
+		<item>@string/group_toyota_cars</item>
+		<item>SENSIBLE GETS SENSATIONAL
+		\n• Tilt/telescopic steering wheel audio controls
+		\n• Cruise control
+		\n• Seven airbags [1]
+		\n• Two 12V auxiliary power outlets
+		</item>
+		<item>camry11icon100</item>
+		<item>3.5</item>
+		<item>t_camry_thumb</item>
+		<item>toyota_camry_hyb_color360</item>
+		<item>toyota_camry_models</item>
+		<item>toyota_camry_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>
+	<!--end by stevie-->
+	<string-array name="ToyotaYaris3DLB">
+		<item>3-Door Liftback</item>
+		<item>@string/group_toyota_cars</item>
+		<item>• $12,955 MSRP [1]
+		    \n• 29/36 mpg rating [2]
+		    \n• 1.5-liter 4-cylinder with Variable Valve Timing with intelligence (VVT-i)
+		    \n• 20 storage compartments
+		    \n• Standard driver and front passenger front seat-mounted side airbags and side curtain airbags [3]
+		</item>
+		<item>t_yaris_3dlb_icon100</item>
+		<item>5</item>
+		<item>t_yaris_lb_thumb</item>
+		<item>toyota_yaris_3dlb_color360</item>
+		<item>toyota_yaris_models</item>
+		<item>toyota_yaris_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>	
+	<string-array name="ToyotaYaris5DLB">
+		<item>5-Door Liftback</item>
+		<item>@string/group_toyota_cars</item>
+		<item>• $13,255 MSRP [1]
+			    \n• 29/36 mpg rating [2]
+			    \n• Standard air conditioning
+			    \n• Star Safety System™
+			    \n• Available 60/40 split, reclining, sliding, fold-flat rear seat
+		</item>
+		<item>t_yaris_5dlb_icon100</item>
+		<item>5</item>
+		<item>t_yaris_5dlb_thumb</item>
+		<item>toyota_yaris_3dlb_color360</item>
+		<item>toyota_yaris_models</item>
+		<item>toyota_yaris_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>	
+
+	<!--add by stevie-->
+	<string-array name="ToyotaCamryCE">
+		<item>Camry</item>
+		<item>@string/group_toyota_cars</item>
+		<item>• $19,820 MSRP [1]
+    \n• 22/33 mpg rating [2]
+    \n• Tilt/telescopic steering wheel audio controls
+    \n• 60/40 split fold-down rear seat
+    \n• Seven airbags
+		</item>
+		<item>camry11icon100</item>
+		<item>5</item>
+		<item>t_camry_ce_thumb</item>
+		<item>toyota_camry_hyb_color360</item>
+		<item>toyota_camry_models</item>
+		<item>toyota_camry_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>	
+	<string-array name="ToyotaCamryLE">
+		<item>LE</item>
+		<item>@string/group_toyota_cars</item>
+		<item>• $21275 MSRP
+			    \n• 22-33 mpg rating [2][3]
+			    \n• Power drivers seat
+			    \n• Remote keyless entry system
+			    \n• Cruise control
+		</item>
+		<item>camry11icon100</item>
+		<item>5</item>
+		<item>t_camry_le_thumb</item>
+		<item>toyota_camry_hyb_color360</item>
+		<item>toyota_camry_models</item>
+		<item>toyota_camry_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>	
+	<string-array name="ToyotaCamrySE">
+		<item>SE</item>
+		<item>@string/group_toyota_cars</item>
+		<item>• $22,590 MSRP [1]
+    \n• 22/33 mpg rating [2][3]
+    \n• 17-in. 5-spoke machine-finished alloy wheels
+    \n• Front and rear underbody spoilers
+    \n• Sport-tuned suspension
+		</item>
+		<item>camry11icon100</item>
+		<item>5</item>
+		<item>t_camry_se_thumb</item>
+		<item>toyota_camry_hyb_color360</item>
+		<item>toyota_camry_models</item>
+		<item>toyota_camry_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>	
+	<string-array name="ToyotaCamryXLE">
+		<item>XLE</item>
+		<item>@string/group_toyota_cars</item>
+		<item>• $26,350 MSRP [1]
+			    \n• 22/32 mpg rating [2][3]
+			    \n• Dual zone automatic climate control with Plasmacluster™ [4]
+			    \n• JBL® AM/FM 6-disc in-dash CD changer with music streaming via Bluetooth® wireless technology [5][6]
+			    \n• Wood-grain-style trim
+		</item>
+		<item>camry11icon100</item>
+		<item>5</item>
+		<item>t_camry_xle_thumb</item>
+		<item>toyota_camry_hyb_color360</item>
+		<item>toyota_camry_models</item>
+		<item>toyota_yaris_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>			
+	<string-array name="ToyotaCamryHYB">
+		<item>HYB</item>
+		<item>@string/group_toyota_cars</item>
+		<item>• $26,675 MSRP [1]
+			    \n• 31/35 mpg rating [2]
+			    \n• Smart Key System [7]
+			    \n• Multi-Information Display with Eco Drive Level and energy flow monitor
+			    \n• Auto-dimming rearview mirror with compass [8]
+		</item>
+		<item>camry11icon100</item>
+		<item>5</item>
+		<item>t_camry_hyb_thumb</item>
+		<item>toyota_camry_hyb_color360</item>
+		<item>toyota_camry_models</item>
+		<item>toyota_camry_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>				
+	<!--end by stevie-->
+	
+	<!--add by stevie-->
+	<string-array name="ToyotaPriusV">
+		<item>V</item>
+		<item>@string/group_toyota_cars</item>
+		<item>• $28,070 MSRP [1]
+    \n• 51/48 mpg rating [2]
+    \n• 17-in. alloy wheels
+    \n• Available Advanced Technology Package
+    \n• LED headlamps and integrated fog lamps
+		</item>
+		<item>prius10icon100</item>
+		<item>5</item>
+		<item>t_prius_v_thumb</item>
+		<item>toyota_prius_v_color360</item>
+		<item>toyota_prius_models</item>
+		<item>toyota_prius_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>		
+	<!--end by stevie-->
+	
+<!--this 360 pictures are located at drawable-->
+	<string-array name="Toyota_Yaris_3dlb_Red_360_Absolutely_Red">
+		<item>t_yaris_3dlb_red1</item>
+		<item>t_yaris_3dlb_red2</item>
+		<item>t_yaris_3dlb_red3</item>
+		<item>t_yaris_3dlb_red4</item>
+		<item>t_yaris_3dlb_red5</item>
+		<item>t_yaris_3dlb_red6</item>
+		<item>t_yaris_3dlb_red7</item>
+		<item>t_yaris_3dlb_red8</item>
+		<item>t_yaris_3dlb_red9</item>
+		<item>t_yaris_3dlb_red10</item>
+		<item>t_yaris_3dlb_red11</item>
+		<item>t_yaris_3dlb_red12</item>
+	</string-array>
+	<string-array name="Toyota_Yaris_3dlb_White_360_Super_White">
+		<item>t_yaris_3dlb_white1</item>
+		<item>t_yaris_3dlb_white2</item>
+		<item>t_yaris_3dlb_white3</item>
+		<item>t_yaris_3dlb_white4</item>
+		<item>t_yaris_3dlb_white5</item>
+		<item>t_yaris_3dlb_white6</item>
+		<item>t_yaris_3dlb_white7</item>
+		<item>t_yaris_3dlb_white8</item>
+		<item>t_yaris_3dlb_white9</item>
+		<item>t_yaris_3dlb_white10</item>
+		<item>t_yaris_3dlb_white11</item>
+		<item>t_yaris_3dlb_white12</item>
+	</string-array>
+
+	<!--add by stevie-->
+	<string-array name="Toyota_Camry_hyb_Silver_360_Magnetic_Gray_Metallic">
+		<item>t_camry_hyb_silver1</item>
+		<item>t_camry_hyb_silver2</item>
+		<item>t_camry_hyb_silver3</item>
+		<item>t_camry_hyb_silver4</item>
+		<item>t_camry_hyb_silver5</item>
+		<item>t_camry_hyb_silver6</item>
+		<item>t_camry_hyb_silver7</item>
+		<item>t_camry_hyb_silver8</item>
+		<item>t_camry_hyb_silver9</item>
+		<item>t_camry_hyb_silver10</item>
+		<item>t_camry_hyb_silver11</item>
+		<item>t_camry_hyb_silver12</item>
+	</string-array>
+	<string-array name="Toyota_Camry_hyb_Red_360_Barcelona_Red_Metallic">
+		<item>t_camry_hyb_red1</item>
+		<item>t_camry_hyb_red2</item>
+		<item>t_camry_hyb_red3</item>
+		<item>t_camry_hyb_red4</item>
+		<item>t_camry_hyb_red5</item>
+		<item>t_camry_hyb_red6</item>
+		<item>t_camry_hyb_red7</item>
+		<item>t_camry_hyb_red8</item>
+		<item>t_camry_hyb_red9</item>
+		<item>t_camry_hyb_red10</item>
+		<item>t_camry_hyb_red11</item>
+		<item>t_camry_hyb_red12</item>
+	</string-array>
+	<!--end by stevie-->
+		
+	<!--add by stevie-->
+	<string-array name="Toyota_Prius_v_White_360_Blizzard_Pearl">
+		<item>t_prius_v_white1</item>
+		<item>t_prius_v_white2</item>
+		<item>t_prius_v_white3</item>
+		<item>t_prius_v_white4</item>
+		<item>t_prius_v_white5</item>
+		<item>t_prius_v_white6</item>
+		<item>t_prius_v_white7</item>
+		<item>t_prius_v_white8</item>
+		<item>t_prius_v_white9</item>
+		<item>t_prius_v_white10</item>
+		<item>t_prius_v_white11</item>
+		<item>t_prius_v_white12</item>
+	</string-array>
+	<!--end by stevie-->
+	
+	<!--BEGIN TUNDRA-->
+	<!--add by stevie-->
+	<string-array name="toyota_tundra_models">
+		<item>ToyotaTundraCM</item>
+	</string-array>
+	<!--end by stevie-->
+	
+	<string-array name="toyota_tundra_gallery">
+		<item>ToyotaTundraGallery1</item>
+		<item>ToyotaTundraGallery2</item>
+		<item>ToyotaTundraGallery3</item>
+		<item>ToyotaTundraGallery4</item>
+		<item>ToyotaTundraGallery5</item>
+	</string-array>	
+	
+	<string-array name="ToyotaTundraGallery1">
+		<item>t_tundra_large1</item>
+		<item>t_tundra_small1</item>
+		<item>4x4 CrewMax in Magnetic Gray Metallic with available 5.7L V8, fog lamps and parking assist sonar</item>
+	</string-array>		
+	<string-array name="ToyotaTundraGallery2">
+		<item>t_tundra_large2</item>
+		<item>t_tundra_small2</item>
+		<item>4x4 Double Cab Limited shown in Nautical Blue Metallic with available 5.7L V8, tow mirrors and 20-in. alloy wheels</item>
+	</string-array>	
+	<string-array name="ToyotaTundraGallery3">
+		<item>t_tundra_large3</item>
+		<item>t_tundra_small3</item>
+		<item>Double Cab Tundra interior shown in Graphite with available bucket seats and SR5 package</item>
+	</string-array>	
+	<string-array name="ToyotaTundraGallery4">
+		<item>t_tundra_large4</item>
+		<item>t_tundra_small4</item>
+		<item>Double Cab Limited interior shown in Red Rock with available tow mirrors</item>
+	</string-array>	
+	<string-array name="ToyotaTundraGallery5">
+		<item>t_tundra_large5</item>
+		<item>t_tundra_small5</item>
+		<item>Double Cab Limited interior shown in Red Rock with available tow mirrors</item>
+	</string-array>	
+	
+	<!--add by stevie-->
+	<string-array name="toyota_tundra_cm_color360">
+		<item>Toyota_Tundra_cm_Silver_360_Magnetic_Gray_Metallic</item>		
+	</string-array>	
+	<!--end by stevie-->	
+	
+		<!--add by stevie-->
+	<string-array name="ToyotaTundra">
+		<item>@string/toyotatundra</item>
+		<item>@string/group_toyota_trucks</item>
+		<item>POWER AND EFFICIENCY. LIKE STEAK AND EGGS.
+		\n• Available 5.7L V8 with 381 hp
+		\n• Available in three cab sizes
+		\n• 8.1 ft. bed available on Regular Cab or Double Cab
+		\n• Easy lower and lift tailgate
+		</item>
+		<item>t_tundra11icon100</item>
+		<item>4.5</item>
+		<item>t_tundra_thumb</item>
+		<item>toyota_tundra_cm_color360</item>
+		<item>toyota_tundra_models</item>
+		<item>toyota_tundra_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>
+	<!--end by stevie-->
+	
+		<!--add by stevie-->
+	<string-array name="ToyotaTundraCM">
+		<item>CM</item>
+		<item>@string/group_toyota_trucks</item>
+		<item>• $29,245 MSRP [1]
+    \n• $30,265 as shown [1]
+    \n• 15/20 mpg rating [2]
+    \n• Vertically sliding rear window
+    \n• Power windows and door locks
+    \n• Slide and Recline rear seat
+		</item>
+		<item>t_tundra11icon100</item>
+		<item>5</item>
+		<item>t_tundra_cm_thumb</item>
+		<item>toyota_tundra_cm_color360</item>
+		<item>toyota_tundra_models</item>
+		<item>toyota_tundra_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>		
+	<!--end by stevie-->
+	
+		<!--add by stevie-->
+	<string-array name="Toyota_Tundra_cm_Silver_360_Magnetic_Gray_Metallic">
+		<item>t_tundra_cm_silver1</item>
+		<item>t_tundra_cm_silver2</item>
+		<item>t_tundra_cm_silver3</item>
+		<item>t_tundra_cm_silver4</item>
+		<item>t_tundra_cm_silver5</item>
+		<item>t_tundra_cm_silver6</item>
+		<item>t_tundra_cm_silver7</item>
+		<item>t_tundra_cm_silver8</item>
+		<item>t_tundra_cm_silver9</item>
+		<item>t_tundra_cm_silver10</item>
+		<item>t_tundra_cm_silver11</item>
+		<item>t_tundra_cm_silver12</item>
+	</string-array>
+	<!--end by stevie-->	
+	<!--END TUNDRA-->
+	
+	<!--BEGIN VENZA-->
+	<!--add by stevie-->
+	<string-array name="toyota_venza_models">
+		<item>ToyotaVenzaSTD</item>
+	</string-array>
+	<!--end by stevie-->
+	
+	<string-array name="toyota_venza_gallery">
+		<item>ToyotaVenzaGallery1</item>
+		<item>ToyotaVenzaGallery2</item>
+		<item>ToyotaVenzaGallery3</item>
+		<item>ToyotaVenzaGallery4</item>
+		<item>ToyotaVenzaGallery5</item>
+	</string-array>	
+	
+	<string-array name="ToyotaVenzaGallery1">
+		<item>t_venza_large1</item>
+		<item>t_venza_small1</item>
+		<item>Venza V6 shown in Classic Silver Metallic with available Convenience Package</item>
+	</string-array>		
+	<string-array name="ToyotaVenzaGallery2">
+		<item>t_venza_large2</item>
+		<item>t_venza_small2</item>
+		<item>Venza V6 shown in Tropical Sea Metallic</item>
+	</string-array>	
+	<string-array name="ToyotaVenzaGallery3">
+		<item>t_venza_large3</item>
+		<item>t_venza_small3</item>
+		<item>Venza center console [1] shown in Ivory with available Premium Package #2 and voice-activated touch-screen DVD navigation system [2]</item>
+	</string-array>	
+	<string-array name="ToyotaVenzaGallery4">
+		<item>t_venza_large4</item>
+		<item>t_venza_small4</item>
+		<item>Venza interior shown in Ivory with available Premium Package #2 and voice-activated touch-screen DVD navigation system [1]</item>
+	</string-array>	
+	<string-array name="ToyotaVenzaGallery5">
+		<item>t_venza_large5</item>
+		<item>t_venza_small5</item>
+		<item>Venza interior shown in Ivory with available Premium Package #2 and voice-activated touch-screen DVD navigation system [1]</item>
+	</string-array>	
+	
+	<!--add by stevie-->
+	<string-array name="toyota_venza_std_color360">
+		<item>Toyota_Venza_std_Gold_360_Golden_Umber_Mica</item>		
+	</string-array>	
+	<!--end by stevie-->
+	
+		<!--add by stevie-->
+	<string-array name="ToyotaVenza">
+		<item>@string/toyotavenza</item>
+		<item>@string/group_toyota_cars</item>
+		<item>YOU\'RE MORE THAN ONE THING. SO IN VENZA.
+		\n• Alloy wheels: 19-in. (4-cyl.), 20-in. (V6)
+		\n• CD player with Bluetooth® wireless technology [1], USB [2] port and iPod® [3] connectivity
+		\n• Center console with sliding armrest and MP3 player holder with wire management feature
+		</item>
+		<item>t_venza11icon100</item>
+		<item>4.5</item>
+		<item>t_venza_thumb</item>
+		<item>toyota_venza_std_color360</item>
+		<item>toyota_venza_models</item>
+		<item>toyota_venza_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>
+	<!--end by stevie-->
+	
+		<!--add by stevie-->
+	<string-array name="ToyotaVenzaSTD">
+		<item>STD</item>
+		<item>@string/group_toyota_cars</item>
+		<item>• $26,625 MSRP [1]
+    \n• 21/27 mpg rating [2]
+    \n• Alloy wheels: 19-in. (4-cyl.), 20-in. (V6)
+    \n• CD player with Bluetooth® wireless technology [3], USB [4] port and iPod® [5] connectivity
+    \n• Center console with sliding armrest and MP3 player holder with wire management feature
+		</item>
+		<item>t_venza11icon100</item>
+		<item>5</item>
+		<item>t_venza_std_thumb</item>
+		<item>toyota_venza_std_color360</item>
+		<item>toyota_venza_models</item>
+		<item>toyota_venza_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>		
+	<!--end by stevie-->
+	
+		<!--add by stevie-->
+	<string-array name="Toyota_Venza_std_Gold_360_Golden_Umber_Mica">
+		<item>t_venza_std_gold1</item>
+		<item>t_venza_std_gold2</item>
+		<item>t_venza_std_gold3</item>
+		<item>t_venza_std_gold4</item>
+		<item>t_venza_std_gold5</item>
+		<item>t_venza_std_gold6</item>
+		<item>t_venza_std_gold7</item>
+		<item>t_venza_std_gold8</item>
+		<item>t_venza_std_gold9</item>
+		<item>t_venza_std_gold10</item>
+		<item>t_venza_std_gold11</item>
+		<item>t_venza_std_gold12</item>
+	</string-array>
+	<!--end by stevie-->	
+	<!--END VENZA-->
+	
+		<!--BEGIN MATRIX-->
+	<!--add by stevie-->
+	<string-array name="toyota_matrix_models">
+		<item>ToyotaMatrixXRS</item>
+	</string-array>
+	<!--end by stevie-->
+	
+	<string-array name="toyota_matrix_gallery">
+		<item>ToyotaMatrixGallery1</item>
+		<item>ToyotaMatrixGallery2</item>
+		<item>ToyotaMatrixGallery3</item>
+		<item>ToyotaMatrixGallery4</item>
+		<item>ToyotaMatrixGallery5</item>
+	</string-array>	
+	
+	<string-array name="ToyotaMatrixGallery1">
+		<item>t_matrix_large1</item>
+		<item>t_matrix_small1</item>
+		<item>XRS shown in Nautical Blue Metallic with available tilt/slide power moonroof</item>
+	</string-array>		
+	<string-array name="ToyotaMatrixGallery2">
+		<item>t_matrix_large2</item>
+		<item>t_matrix_small2</item>
+		<item>S shown in Sundance Metallic with available Sport Package</item>
+	</string-array>	
+	<string-array name="ToyotaMatrixGallery3">
+		<item>t_matrix_large3</item>
+		<item>t_matrix_small3</item>
+		<item>XRS interior shown in Dark Charcoal with available JBL® audio system [1] [2]</item>
+	</string-array>	
+	<string-array name="ToyotaMatrixGallery4">
+		<item>t_matrix_large4</item>
+		<item>t_matrix_small4</item>
+		<item>S interior shown in Dark Charcoal with available automatic transmission</item>
+	</string-array>	
+	<string-array name="ToyotaMatrixGallery5">
+		<item>t_matrix_large5</item>
+		<item>t_matrix_small5</item>
+		<item>S interior shown in Dark Charcoal with available tilt/slide power moonroof</item>
+	</string-array>	
+	
+	<!--add by stevie-->
+	<string-array name="toyota_matrix_xrs_color360">
+		<item>Toyota_Matrix_xrs_Blue_360_Blue_Streak_Metallic</item>		
+	</string-array>	
+	<!--end by stevie-->
+	
+		<!--add by stevie-->
+	<string-array name="ToyotaMatrix">
+		<item>@string/toyotamatrix</item>
+		<item>@string/group_toyota_cars</item>
+		<item>TAKE A RIDE WITH YOUR DARK SIDE
+		\n• 1.8L 4-cylinder engine with Dual Variable Valve Timing with Intelligence
+		\n• Auxiliary audio jack
+		\n• Available 16-in. alloy wheels
+		\n• Six standard airbags [1] and active front headrests [2]
+		</item>
+		<item>matrixicon100</item>
+		<item>4.5</item>
+		<item>t_matrix_thumb</item>
+		<item>toyota_matrix_xrs_color360</item>
+		<item>toyota_matrix_models</item>
+		<item>toyota_matrix_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>
+	<!--end by stevie-->
+	
+		<!--add by stevie-->
+	<string-array name="ToyotaMatrixXRS">
+		<item>XRS</item>
+		<item>@string/group_toyota_cars</item>
+		<item>• $20,920 MSRP [1]
+    \n• 21/28 mpg rating [2]
+    \n• 18-in. alloy wheels
+    \n• Independent double-wishbone rear suspension
+    \n• Front and rear underbody spoilers with hatch-mounted roof end spoiler
+		</item>
+		<item>matrixicon100</item>
+		<item>5</item>
+		<item>t_matrix_xrs_thumb</item>
+		<item>toyota_matrix_xrs_color360</item>
+		<item>toyota_matrix_models</item>
+		<item>toyota_matrix_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>		
+	<!--end by stevie-->
+	
+		<!--add by stevie-->
+	<string-array name="Toyota_Matrix_xrs_Blue_360_Blue_Streak_Metallic">
+		<item>t_matrix_xrs_blue1</item>
+		<item>t_matrix_xrs_blue2</item>
+		<item>t_matrix_xrs_blue3</item>
+		<item>t_matrix_xrs_blue4</item>
+		<item>t_matrix_xrs_blue5</item>
+		<item>t_matrix_xrs_blue6</item>
+		<item>t_matrix_xrs_blue7</item>
+		<item>t_matrix_xrs_blue8</item>
+		<item>t_matrix_xrs_blue9</item>
+		<item>t_matrix_xrs_blue10</item>
+		<item>t_matrix_xrs_blue11</item>
+		<item>t_matrix_xrs_blue12</item>
+	</string-array>
+	<!--end by stevie-->	
+	<!--END MATRIX-->
+	
+	<!--BEGIN LAND CRUISER-->
+	<!--add by stevie-->
+	<string-array name="toyota_land_cruiser_models">
+		<item>Toyota_Land_Cruiser_STD</item>
+	</string-array>
+	<!--end by stevie-->
+	
+	<string-array name="toyota_land_cruiser_gallery">
+		<item>ToyotaLandCruiserGallery1</item>
+		<item>ToyotaLandCruiserGallery2</item>
+		<item>ToyotaLandCruiserGallery3</item>
+		<item>ToyotaLandCruiserGallery4</item>
+		<item>ToyotaLandCruiserGallery5</item>
+	</string-array>	
+	
+	<string-array name="ToyotaLandCruiserGallery1">
+		<item>t_land_cruiser_large1</item>
+		<item>t_land_cruiser_small1</item>
+		<item>description</item>
+	</string-array>		
+	<string-array name="ToyotaLandCruiserGallery2">
+		<item>t_land_cruiser_large2</item>
+		<item>t_land_cruiser_small2</item>
+		<item>description</item>
+	</string-array>	
+	<string-array name="ToyotaLandCruiserGallery3">
+		<item>t_land_cruiser_large3</item>
+		<item>t_land_cruiser_small3</item>
+		<item>description</item>
+	</string-array>	
+	<string-array name="ToyotaLandCruiserGallery4">
+		<item>t_land_cruiser_large4</item>
+		<item>t_land_cruiser_small4</item>
+		<item>description</item>
+	</string-array>	
+	<string-array name="ToyotaLandCruiserGallery5">
+		<item>t_land_cruiser_large5</item>
+		<item>t_land_cruiser_small5</item>
+		<item>description</item>
+	</string-array>	
+	
+	<!--add by stevie-->
+	<string-array name="toyota_land_cruiser_std_color360">
+		<item>Toyota_Land_Cruiser_std_Gold_360_Sonora_Gold_Pearl</item>		
+	</string-array>	
+	<!--end by stevie-->
+	
+		<!--add by stevie-->
+	<string-array name="Toyota_Land_Cruiser">
+		<item>@string/toyota_land_cruiser</item>
+		<item>@string/group_toyota_suv_van</item>
+		<item>IN SOME PARTS OF THE WORLD, IT\'S AN ESSENTIAL.
+		\n• 381-hp 5.7L Dual Independent VVT-i V8
+		\n• Crawl Control
+		\n• Kinetic Dynamic Suspension System (KDSS)
+		\n• Torsen® limited-slip center differential with locking feature [1]
+		</item>
+		<item>t_landcruiser11icon100</item>
+		<item>4.5</item>
+		<item>t_land_cruiser_thumb</item>
+		<item>toyota_land_cruiser_std_color360</item>
+		<item>toyota_land_cruiser_models</item>
+		<item>toyota_land_cruiser_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>
+	<!--end by stevie-->
+	
+		<!--add by stevie-->
+	<string-array name="Toyota_Land_Cruiser_STD">
+		<item>STD</item>
+		<item>@string/group_toyota_suv_van</item>
+		<item>• $68,020 MSRP [1]
+    \n• 13/18 mpg rating [2]
+    \n• 381-hp 5.7L Dual Independent VVT-i V8
+    \n• Crawl Control
+    \n• Kinetic Dynamic Suspension System (KDSS)
+		</item>
+		<item>t_landcruiser11icon100</item>
+		<item>5</item>
+		<item>t_land_cruiser_std_thumb</item>
+		<item>toyota_land_cruiser_std_color360</item>
+		<item>toyota_land_cruiser_models</item>
+		<item>toyota_land_cruiser_gallery</item>
+		<item></item>
+		<item></item>
+	</string-array>		
+	<!--end by stevie-->
+	
+	<!--add by stevie-->
+	<string-array name="Toyota_Land_Cruiser_std_Gold_360_Sonora_Gold_Pearl">
+		<item>t_land_cruiser_gold1</item>
+		<item>t_land_cruiser_gold2</item>
+		<item>t_land_cruiser_gold3</item>
+		<item>t_land_cruiser_gold4</item>
+		<item>t_land_cruiser_gold5</item>
+		<item>t_land_cruiser_gold6</item>
+		<item>t_land_cruiser_gold7</item>
+		<item>t_land_cruiser_gold8</item>
+		<item>t_land_cruiser_gold9</item>
+		<item>t_land_cruiser_gold10</item>
+		<item>t_land_cruiser_gold11</item>
+		<item>t_land_cruiser_gold12</item>
+	</string-array>
+	<!--end by stevie-->	
+	<!--END LAND CRUISER-->
+	
+	<!--BEGIN CAMRY HYBRID-->
+	<!--add by stevie-->
+	<!--add by stevie-->
+	<string-array name="toyota_camry_hybrid_models">
+		<item>ToyotaCamryHYB</item>
+	</string-array>
+	<!--end by stevie-->
+	
+	<!--add by stevie-->
+	<string-array name="Toyota_Camry_Hybrid">
+		<item>@string/toyota_camry_hybrid</item>
+		<item>@string/group_toyota_hybrids</item>
+		<item>SENSIBLE GETS SENSATIONAL
+		\n• Tilt/telescopic steering wheel audio controls
+		\n• Cruise control
+		\n• Seven airbags [1]
+		\n• Two 12V auxiliary power outlets
+		</item>
+		<item>camry11icon100</item>
+		<item>5</item>
+		<item>t_camry_hybrid_thumb</item>
+		<item>toyota_camry_hyb_color360</item>
+		<item>toyota_camry_hybrid_models</item>
+		<item>toyota_camry_gallery</item>
+	</string-array>
+	<!--end by stevie-->
+	<!--END CAMRY HYBRID-->
+</resources>

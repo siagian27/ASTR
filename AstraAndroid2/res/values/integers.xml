@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="max_car_data">11</integer>
+	<integer name="max_car_gallery_data">3</integer>
+    <integer name="max_speed">75</integer>
+    <integer name="min_speed">5</integer>
+</resources>

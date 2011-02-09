@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center" 
+  android:background="@drawable/loginscreen">
+			 
+  	<TableRow android:id="@+id/TableRow01" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">			  
+    <EditText
+            android:id="@+id/txt_username"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:layout_x="40px"
+            android:layout_y="52px"
+            android:text="astra"/>
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow02" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">            
+    <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:password="true"
+            android:layout_x="40px"
+            android:layout_y="106px"
+            android:text="android"/>
+    </TableRow>
+            
+  	<TableRow android:id="@+id/TableRow03" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">            
+    <Button
+            android:id="@+id/btn_sign_in"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_x="40px"
+            android:layout_y="177px"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_sign_in" />
+             
+	</TableRow>
+	
+	<TableRow android:id="@+id/TableRow01" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:gravity="center">
+	<TextView android:id="@+id/txt_register" 
+			  android:layout_height="wrap_content" 
+			  android:layout_x="44dip" 
+			  android:layout_width="wrap_content" 
+			  android:text="Register Now" 
+			  android:textSize="22px"
+			  android:clickable="true"
+			  android:layout_y="7dip"
+			  android:textColor="#cc0000"
+			  android:autoLink="all"></TextView>
+	<CheckBox android:id="@+id/chk_remember_me" 
+			  android:layout_height="wrap_content" 
+			  android:layout_width="wrap_content" 
+			  android:text="Remember Me"
+			  android:layout_x="150px"
+			  android:layout_y="177px"
+			  android:textColor="#FFFFFF"></CheckBox>			  
+	</TableRow>
+				  
+</TableLayout>

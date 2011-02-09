@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollWidget54"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:scrollbarFadeDuration="2"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+						 android:paddingBottom="10dip"
+						 android:paddingRight="10dip"
+						 android:paddingLeft="10dip"
+						 android:paddingTop="10dip"
+		>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:id="@+id/TextViewSelectVehicle"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/model_select_vehicle"></TextView>
+			<Spinner android:id="@+id/SpinnerSelectCar"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Spinner>
+
+			<TableLayout android:id="@+id/TableLayoutSearch01" 
+							android:layout_width="wrap_content" 
+				  			android:visibility="invisible"
+							android:layout_height="wrap_content">
+
+  <TableRow android:id="@+id/TableRowSearch01" 
+  			android:layout_width="wrap_content" 
+  			android:layout_height="wrap_content"
+  			android:focusable="true"
+  			android:focusableInTouchMode="true"
+  			>
+
+			<EditText android:id="@+id/EditTextSearch" 
+				android:layout_width="140dip"
+				android:layout_height="50dip" 
+				android:hint="@string/model_search_hint"/>
+			<Button
+				android:id="@+id/ButtonSearch01" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="@string/model_search_button" />
+
+  </TableRow>
+			</TableLayout>
+
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"			
+			>
+			<View android:background="@color/model_line" android:layout_width="fill_parent" android:layout_height="1dip" android:layout_centerVertical="true" />
+			<TextView android:id="@+id/TextViewModelHeader"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="25sp" android:typeface="monospace"
+				android:textColor="#d70000"
+                android:shadowRadius="1.5"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowColor="#cbcbcb" 
+				></TextView>
+			<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+				<ImageView android:id="@+id/ImageViewModelMain"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+				<TextView android:id="@+id/TextViewModelMainDesc"
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content"
+					android:gravity="center_vertical"
+					android:layout_marginLeft="10dip"
+					android:textSize="14sp"/>
+			</LinearLayout>
+			<ImageButton 		android:id="@+id/ButtonModelSee360" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"	
+				android:layout_marginLeft="10dip"			
+				android:layout_marginTop="10dip"
+				android:layout_marginBottom="10dip"
+				android:background="@drawable/see360small_button"
+				android:focusable="false"
+				android:focusableInTouchMode="false" />
+			<View android:background="@color/model_line" android:layout_width="fill_parent" android:layout_height="1dip" android:layout_centerVertical="true" />
+
+			<TextView 
+				android:layout_width="wrap_content"
+				android:textStyle="bold"
+				android:paddingLeft="10dip"
+				android:layout_height="wrap_content" 
+				android:text="@string/model_gallery_label"/>
+			<com.android.astra2.CarGallery
+				android:id="@+id/CarGallery01"  
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_centerVertical="true" />
+
+			<TextView android:id="@+id/TextView02" android:layout_width="wrap_content"
+				android:textStyle="bold"
+				android:paddingLeft="10dip"
+				android:layout_height="wrap_content" 
+				android:text="@string/model_model_label"></TextView>
+			<TableLayout android:id="@+id/TableLayout01" 
+						 android:layout_width="fill_parent" 
+						 android:layout_height="wrap_content"
+						 android:background="@drawable/tablelayout"
+						 android:shrinkColumns="1"
+						 >
+<!--				    <TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">-->
+<!--				      <ImageView android:id="@+id/ImageViewModelChild1" -->
+<!--				      		android:layout_width="wrap_content" -->
+<!--				      		android:layout_height="wrap_content"-->
+<!--				      		android:layout_marginTop="10dip" -->
+<!--				      		android:layout_marginLeft="10dip"-->
+<!--				      		/>				 -->
+<!--				      <TextView android:id="@+id/TextViewModelChild1" -->
+<!--				      	android:layout_width="wrap_content" -->
+<!--				      	android:layout_height="wrap_content" -->
+<!--			      		android:layout_marginTop="10dip" -->
+<!--			      		android:layout_marginLeft="10dip"-->
+<!--				      	/>-->
+<!--				    </TableRow>			-->
+ 			</TableLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="20dip"
+				>
+				<Button android:id="@+id/ButtonFindADealer" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Find a Dealer"
+					></Button>
+				<Button android:id="@+id/ButtonVehicles" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Certified Used Vehicles"
+					></Button>
+				<Button android:id="@+id/ButtonRequestAQuote" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Request a Quote"
+					></Button>
+				<Button android:id="@+id/ButtonToyotaCare" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Toyota Care"
+					></Button>
+			</LinearLayout>
+			<TextView
+				android:id="@+id/TextViewBottom1"
+				android:text="@string/model_bottom_text1"
+				android:textSize="11sp"
+				android:autoLink="all"
+				android:layout_alignParentBottom="true" android:layout_width="fill_parent"
+				android:layout_height="wrap_content"></TextView>
+			<TextView
+				android:id="@+id/TextViewBottom2"
+				android:text="@string/model_bottom_text2"
+				android:textSize="11sp"
+				android:autoLink="all"
+				android:layout_alignParentBottom="true" android:layout_width="fill_parent"
+				android:layout_height="wrap_content"></TextView>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>
